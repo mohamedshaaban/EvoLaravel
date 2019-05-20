@@ -1,0 +1,109 @@
+/*	================================
+			activity - page
+    ================================ */
+.sub-slide-details-hold {
+  float: left;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  bottom: 127px;
+  padding: 2%;
+}
+
+.sub-calendar-hold {
+  background: #dfdfdf;
+  float: left;
+  margin: 0px;
+  padding: 12px 0 0 0;
+  min-height: 226px;
+}
+
+.sub-datepicker-display table .ui-state-default, .sub-datepicker-display table .cal-style .ui-widget-content .ui-state-default {
+  padding: 9% !important;
+}
+
+.sub-calendar-hold .ui-widget.ui-widget-content {
+  border: none;
+  background: #dfdfdf;
+}
+
+.search-form {
+  background: url(../../images/footebg.jpg);
+  float: left;
+  margin: 0px;
+}
+
+.search-form .ta-con {
+  padding: 29px 5% 12px 5%;
+}
+
+.search-form .ta-con ul li {
+  list-style: none;
+  margin: 0px 2% 0 0%;
+  padding: 10px 0 0 0;
+  width: 47%;
+  float: left;
+  position: relative;
+  min-height: 56px;
+}
+
+.search-form .ta-con ul li .chzn-container-single .chzn-single span {
+  height: 29px;
+  padding: 8px 0 0 11px;
+  background: url(../../images/select_arrow.png) right 5px top 11px no-repeat;
+  background-color: #fff;
+}
+
+.search-form .ta-con ul li .stndrd-btn {
+  padding: 6%;
+}
+
+.subpage-banner-section {
+  padding: 0px;
+  height: auto;
+  float: left;
+  position: relative;
+}
+
+.subpage-cal-section {
+  padding: 0px;
+}
+
+.search-form .ta-con ul li > label {
+  top: -6px;
+}
+
+.sub-banner-slider {
+  position: relative;
+  height: auto;
+}
+
+.sub-banner-slider .slick-prev {
+  background: url(../../images/left_arrow.png) no-repeat;
+  position: absolute;
+  font-size: 0px;
+  border: none;
+  top: calc(34% + 10px);
+  z-index: 999;
+  width: 26px;
+  height: 50px;
+  left: 10px;
+}
+
+.sub-banner-slider .slick-next {
+  background: url(../../images/right_arrow.png) no-repeat;
+  position: absolute;
+  font-size: 0px;
+  border: none;
+  top: calc(34% + 10px);
+  z-index: 999;
+  width: 26px;
+  height: 50px;
+  right: 10px;
+}
+
+.sub-banner-slider li {
+  list-style: none;
+  position: relative;
+  height: 500px;
+}
+/*# sourceMappingURL=activity.css.map */

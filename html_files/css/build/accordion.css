@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+.loading { display: none; }
+.accordion { width: 100%; }
+.accordion li > h3 > a {    border-radius: 0px;    background-color: transparent; background-image:  url(../../images/accordian_arrow.png) ; background-position: 212px center; background-repeat: no-repeat;   display: block; font-style: normal; margin: 0; text-align: left; width: 100%; font-weight: 900;  outline: none;    padding: 10px 65px 10px 45px;     
+    width: 100%;
+    font-size: 18px;
+    color: #000000; font-weight:normal; }
+.accordion > li > h3 > a { padding-left: 0px; background-position: right 12px center; }
+.accordion li h3 > a:hover { background-image:  url(../../images/accordian_arrow.png) ; background-position: right 12px center; background-repeat: no-repeat; }
+.accordion li.active h3 > a { background-image: url(../../images/accordian_arrow1.png); background-position: right 12px center; background-repeat: no-repeat; }
+.accordion li.locked h3 a { }
+.accordion li h3 { margin: 0; padding: 0; background: none; margin-bottom: 8px; border-bottom: 1px solid #818892; }
+.accordion .panel { background: transparent; box-shadow:none;}
+ 
+ul.accordion, ol.accordion { margin: 0; padding: 0; }
+.accordion > li { list-style-type: none;
+    margin: 0;
+    padding: 0;
+     background: transparent; }
+.accordion li:after { content: "."; display: block; height: 0; clear: both; visibility: hidden;  *zoom: 1;
+}
+.accordion li ul { width: 100%; margin: 0 auto; margin-bottom: 10px; padding:0 0 0 0px; }
+.accordion li li { transition: all 0.3s ease-out 0s; -moz-transition: all 0.3s ease-out 0s; -webkit-transition: all 0.3s ease-out 0s; -o-transition: all 0.3s ease-out 0s; list-style: none;  color: #c63a3f; font-size: 15px; font-weight: 400; width: 100%; padding: 5px 0px 5px 0px; }
+.accordion li li a { width: 100%; display: inline-block; height: 100%; outline: none; }
+.accordion li li p{
+	color:#6c6c6b!important;
+}
+ 
+.accordion .active h3 a{
+	color:#4467b0;
+}
+
+.accordion li li:last-child { border-bottom: none; }
+.accordion a { color: inherit; text-decoration: inherit; }
+.accordion .loading { display: none; }
+.chk { margin-right: 10px; cursor: pointer; }
+.accordion li ul.size-list{
+ margin-bottom:10px;
+ float:left;
+}
+
+.accordion li ul.size-list li{
+ width:50%;
+ float:left;
+
+ 
+}

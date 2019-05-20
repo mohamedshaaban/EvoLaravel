@@ -1,0 +1,213 @@
+.mini-cal{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding-bottom: 1.2em;
+    background: #fff;
+    color: #333;
+    border:none;
+    border-radius: 5px;
+}
+
+#calTitle{
+    color: #5e328b;
+    display: flex;
+    justify-content: space-between;
+    -ms-align-items: center;
+    align-items: center;
+    font-size: 24px;
+    text-align: center;
+    padding: 15px 20px 15px 20px;
+    margin: 6px;
+    background: url(../images/top-bg.jpg) no-repeat center top;
+   background-size: 100% 100%;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+#calTitle button{
+    outline: none;
+    display: block;
+    border: 0;
+    border: none;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    line-height: 54px;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+#calTitle button svg{
+    width: 30px;
+    height: 30px;
+}
+
+#calTitle button:hover{
+    background: transparent;
+}
+
+#calThead, #calTbody{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.1em;
+}
+
+#calThead{
+    color: #fff;
+    margin-top: 0.4em;
+    align-items: center;
+    text-align: center;
+    font-size: 0.88em;
+}
+
+#calThead > div, #calTbody .a-date{
+    box-sizing: border-box;
+    flex: 2;
+    min-width: calc(100% / 7);
+    max-width: calc(100% / 7);
+    width: calc(100% / 7);
+    text-align: center;
+    padding: 0;
+
+}
+
+#calThead > div{
+    font-size: 1.1em;
+    font-size: 20px;
+    color: #222;
+    font-weight: bold;
+}
+
+#calTbody{
+    color: #ddd;
+}
+
+#calTbody .a-date > span{
+    display: block;
+}
+
+#calThead > div{
+    cursor: default;
+    padding: 0;
+    position: relative;
+    background-color: transparent;
+    color: inherit;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+    border: 0.1em solid transparent;    
+    border: 3px solid #fff;
+    color: #222;
+    box-shadow: inset 0px 0px 0px 1px #fff;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+#calTbody .a-date{
+    cursor: default;
+    padding: 0;
+    position: relative;
+    background-color: transparent;
+    color: inherit;
+    padding-top: 25px;
+    padding-bottom: 25px;   
+    border: 0.1em solid transparent;    
+    font-size: 0.9em;
+    font-size: 20px;
+    border: 3px solid #fff;
+    color: #222;
+    box-shadow: inset 0px 0px 0px 1px #cccccc;
+    box-sizing: border-box;
+    font-weight: normal;
+}
+#calTbody .a-date:focus{
+    outline-color: #fff;
+    border-color: #f9ba32;
+}
+#calTbody .a-date.blurred{
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+#calTbody .a-date.event:before{
+    content: '';
+    position: absolute;
+    top: -0.1em;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background-color: #fffc23;
+    width: 0.3em;
+    height: 0.3em;
+    border-radius: 50%;
+}
+
+#calTbody .a-date.current{
+    background-color: #f5a700;
+    outline: none;
+    outline: 0;
+}
+
+#calTbody .a-date.current:before,
+#calTbody .a-date:focus:before,
+#calTbody .a-date:active:before{
+    display: none;
+    background-color: #000;
+}
+
+#calTbody .a-date.current.event{
+    background-color: #fffc23;
+    color: #000;
+}
+
+#calTbody .a-date:focus.event,
+#calTbody .a-date:active.event{
+    border-color: #a09e45;
+}
+
+#calTFooter{
+    display: flex;
+    justify-content: space-between;
+    -ms-align-items: center;
+    align-items: center;
+    font-size: 1.1em;
+    padding: 0 1em;
+    margin-top: 0.5em;
+}
+
+#calTFooter #calLink{
+    font-size: 0.8em;
+    display: inline-block;
+    padding: 0.6em 0.8em;
+    flex-shrink: 0;
+    text-decoration: none;
+    color: #222;
+}
+
+#calTFooter #calLink:hover{
+    background-color: #ebebeb;
+    /*background: rgba(255,255,255,0.1);*/
+}
+
+#calTFooter #eventTitle{
+    margin: 0;
+    margin-right: 0.1em;
+    font-weight: normal;
+    font-size: 0.95em;
+    white-space: nowrap;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+
+}
+
+@media only screen and (max-width : 600px) {
+
+#calThead > div{
+    font-size: 1.1em;
+}
+#calTbody .a-date{  
+    font-size: 0.9em;
+}
+}

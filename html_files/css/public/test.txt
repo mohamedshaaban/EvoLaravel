@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>KIPIC</title>
+    <link id="" rel="shortcut icon" href="favicon.ico?" />
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Owl Carousel -->
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.default.css" rel="stylesheet">
+
+    <!-- Custom Style -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+    <!-- Navbar -->
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">       
+        <a class="navbar-brand" href="#">
+          <div class="logo"><img src="images/logo.jpg"></div>
+          <div class="new-kuwait"><img src="images/new-kuwait.png"></div>
+        </a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+      </div>
+      <span class="globe">
+          <a class="dropdown-toggle"  href="#">عربي</a>
+           
+        </span>
+      <span class="search"><div class="search-icon">   
+            <form>
+            	<input type="search" placeholder="">
+</form>
+              </div></span>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Home</a></li>
+          <li class="dropdown">
+              <a href="#" data-toggle="dropdown" class="dropdown-toggle">About Us <!--<b class="caret"></b>--></a>
+              <div class="dropdown-menu">
+                <div class="container">
+                  <ul class="col-sm-3">
+                    <li><a href="who-we-are.html">Who We Are</a></li>
+                    <li><a href="#">How We Work</a></li>
+                    <li><a href="#">History</a></li>
+                    <li><a href="#">Our Mission</a></li>
+                    <li><a href="#">Our Vision</a></li>
+                  </ul>
+                  <ul class="col-sm-3">
+                    <li><a href="#">Company Message</a></li>
+                    <li><a href="#">Strategy</a></li>
+                    <li><a href="governance.html">Governance</a>
+                      <ul>
+                        <li><a href="Board-members.html">Board Member</a></li>
+                        <li><a href="#">Executive Team</a></li>
+                        <li><a href="#">Management Team</a></li> 
+                      </ul>
+                    </li>
+                  </ul>
+                  <ul class="col-sm-3">
+                    <li><a href="#">Our Brand</a></li>
+                    <li><a href="#">Milestone</a></li>
+                    <li><a href="#">Award & Recognition</a></li>
+                  </ul>
+                  <ul class="col-sm-3">
+                    <div class="menu-img">
+                      <h5>About Us Caption</h5>
+                      <img src="images/news2.jpg">
+                    </div>
+                  </ul>
+                </div>
+              </div>
+          </li>
+          <li class="dropdown">
+              <a href="#" data-toggle="dropdown" class="dropdown-toggle">Our Business</a>
+              <div class="dropdown-menu">
+                <div class="container">
+                  <ul class="col-sm-3">
+                    <li><a href="#">Al Zour Oil Complex</a></li>
+                    <li><a href="#">Al Zour Refinery Project</a></li>
+                  </ul>
+                  <ul class="col-sm-3">
+                    <li><a href="#">LNGI Import Facility</a></li>
+                  </ul>
+                  <ul class="col-sm-3">
+                    <li><a href="#">Petrochemical Facility</a></li>
+                  </ul>
+                  <ul class="col-sm-3">
+                    <div class="menu-img">
+                      <h5>Business Facility</h5>
+                      <img src="images/news2.jpg">
+                    </div>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          <li class="dropdown">
+              <a href="#" data-toggle="dropdown" class="dropdown-toggle">Newsroom</a>
+              <div class="dropdown-menu">
+                <div class="container">
+                  <ul class="col-sm-3">
+                    <li><a href="news.html">Highlights</a></li>
+                    <li><a href="#">Publications</a></li>
+                    <li><a href="image-gallery.html">Image Gallery</a></li>
+                  </ul>
+                  <ul class="col-sm-3">
+                    <li><a href="video-gallery.html">Video Gallery</a></li>
+                    <li><a href="#">Meet KIPIC People</a></li>
+                  </ul>
+                  <ul class="col-sm-3">
+                    <li><a href="#">KIPIC Newspaper</a></li>
+                    <li><a href="#">Social Media</a></li>
+                  </ul>
+                  <ul class="col-sm-3">
+                    <div class="menu-img">
+                      <h5>Newsroom Caption</h5>
+                      <img src="images/news2.jpg">
+                    </div>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          <li class="dropdown">
+              <a href="#" data-toggle="dropdown" class="dropdown-toggle">KIPIC's Tenders</a>
+              <div class="dropdown-menu">
+                <div class="container">
+                  <ul class="col-sm-3">
+                    <li><a href="Tenders.html">Scheduled Tenders</a></li>
+                    <li><a href="#">Upcoming Tenders</a></li>
+                    <li><a href="#">Image Gallery</a></li>
+                  </ul>
+                  <ul class="col-sm-3">
+                    <li><a href="#">Issued Tenders</a></li>
+                    <li><a href="#">Under Evaluation</a></li>
+                  </ul>
+                  <ul class="col-sm-3">
+                    <li><a href="#">Awarded Tenders</a></li>
+                  </ul>
+                  <ul class="col-sm-3">
+                    <div class="menu-img">
+                      <h5>KIPIC's Tenders Caption</h5>
+                      <img src="images/news2.jpg">
+                    </div>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          <li><a href="#">E-Recruitment</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+  <!--Seaarch Pop up-->
+  <div id="search">
+    <button type="button" class="close">×</button>
+    <form>
+        <input type="search" value="" placeholder="Type Your Keywords" />
+        <button type="submit" class="btn btnlg">Search</button>
+    </form>
+  </div>
+
+  <!--Banner-->
+  <div class="banner">
+    <div class="owl-one owl-carousel owl-theme">
+      <div class="item"">
+        <img src="images/banner.jpg">
+        <div class="caption">
+          <h1>Pioneering the Industry</h1>
+          <p>We will establish one of the largest root integrated refining, petrochemical & LNG import complex in the world</p>
+          <a href="#" class="readmore">Explore</a>
+        </div>
+      </div>
+      <div class="item"">
+        <img src="images/banner.jpg">
+        <div class="caption">
+          <h1>Pioneering the Industry</h1>
+          <p>We will establish one of the largest root integrated refining, petrochemical & LNG import complex in the world</p>
+          <a href="#" class="readmore">Explore</a>
+        </div>
+      </div>
+      <div class="item"">
+        <img src="images/banner.jpg">
+        <div class="caption">
+          <h1>Pioneering the Industry</h1>
+          <p>We will establish one of the largest root integrated refining, petrochemical & LNG import complex in the world</p>
+          <a href="#" class="readmore">Explore</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Welcome Section-->
+
+  <div class="welcome-section">
+    <div class="container">
+          <center><h3>ABOUT <span>KIPIC</span></h3></center>
+          <div class="col-sm-6 wel-data">
+            <h5>Interactively empower diverse imperatives after prospective 
+convergence.</h5>
+<p>Assertively productize efficient partnerships through customer directed supply
+chains. Continually maintain process-centric catalysts for change via backward 
+compatible value.</p>
+<a href="who-we-are.html" class="more">KNOW MORE</a>
+          </div>
+          <div class="col-sm-6 wel-img">
+            <img src="images/wel-img.jpg">
+          </div>
+    </div>
+  </div>
+
+  <!--latest News -->
+
+  <div class="ltst-news-section">
+    <div class="container">
+      <center><h3>LATEST <span>NEWS</span></h3></center>
+      <div class="owl-two owl-carousel owl-theme">
+          <div class="item"">
+            <div class="row">
+            <div class="col-sm-12 col-md-5 col-lg-6">
+              <div class="News-big">
+                <div class="news-big-img">
+                  <img src="images/news.jpg">
+                  <div class="date">12 FEB 18</div>
+                </div>
+                <div class="news-big-data">
+                  <h4>
+                    Think-K , at Ahmad Al-Jaber Oil and Gas Exhibition
+                  </h4>
+                  <p>Assertively productize efficient partnerships through customer directed supply
+  chains. Continually maintain process-centric catalysts <a class="more2" href="#">More</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-7 col-lg-6">
+                <div class="News-sml">
+                  <div class="news-sml-img">
+                    <img src="images/news2.jpg">
+                    
+                  </div>
+                  <div class="news-sml-data">
+                    <h4>
+                      KIPIC has announced the completion of the rigid inclusions.
+                    </h4>
+                    <div class="date">12 FEB 18</div>
+                    <p>Assertively productize efficient partnerships through customer directed supply
+    chains... <a class="more2" href="#">More</a></p>
+                  </div>
+                </div>
+                <div class="News-sml">
+                  <div class="news-sml-img">
+                    <img src="images/news3.jpg">
+                    
+                  </div>
+                  <div class="news-sml-data">
+                    <h4>
+                      KIPIC has announced the completion of the rigid inclusions.
+                    </h4>
+                    <div class="date">12 FEB 18</div>
+                    <p>Assertively productize efficient partnerships through customer directed supply
+    chains... <a class="more2" href="#">More</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item"">
+            <div class="row">
+            <div class="col-sm-12 col-md-5 col-lg-6">
+              <div class="News-big">
+                <div class="news-big-img">
+                  <img src="images/news.jpg">
+                  <div class="date">12 FEB 18</div>
+                </div>
+                <div class="news-big-data">
+                  <h4>
+                    Think-K , at Ahmad Al-Jaber Oil and Gas Exhibition
+                  </h4>
+                  <p>Assertively productize efficient partnerships through customer directed supply
+  chains. Continually maintain process-centric catalysts <a class="more2" href="#">More</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-7 col-lg-6">
+                <div class="News-sml">
+                  <div class="news-sml-img">
+                    <img src="images/news2.jpg">
+                    
+                  </div>
+                  <div class="news-sml-data">
+                    <h4>
+                      KIPIC has announced the completion of the rigid inclusions.
+                    </h4>
+                    <div class="date">12 FEB 18</div>
+                    <p>Assertively productize efficient partnerships through customer directed supply
+    chains... <a class="more2" href="#">More</a></p>
+                  </div>
+                </div>
+                <div class="News-sml">
+                  <div class="news-sml-img">
+                    <img src="images/news3.jpg">
+                    
+                  </div>
+                  <div class="news-sml-data">
+                    <h4>
+                      KIPIC has announced the completion of the rigid inclusions.
+                    </h4>
+                    <div class="date">12 FEB 18</div>
+                    <p>Assertively productize efficient partnerships through customer directed supply
+    chains... <a class="more2" href="#">More</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item"">
+            <div class="row">
+            <div class="col-sm-12 col-md-5 col-lg-6">
+              <div class="News-big">
+                <div class="news-big-img">
+                  <img src="images/news.jpg">
+                  <div class="date">12 FEB 18</div>
+                </div>
+                <div class="news-big-data">
+                  <h4>
+                    Think-K , at Ahmad Al-Jaber Oil and Gas Exhibition
+                  </h4>
+                  <p>Assertively productize efficient partnerships through customer directed supply
+  chains. Continually maintain process-centric catalysts <a class="more2" href="#">More</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-7 col-lg-6">
+                <div class="News-sml">
+                  <div class="news-sml-img">
+                    <img src="images/news2.jpg">
+                    
+                  </div>
+                  <div class="news-sml-data">
+                    <h4>
+                      KIPIC has announced the completion of the rigid inclusions.
+                    </h4>
+                    <div class="date">12 FEB 18</div>
+                    <p>Assertively productize efficient partnerships through customer directed supply
+    chains... <a class="more2" href="#">More</a></p>
+                  </div>
+                </div>
+                <div class="News-sml">
+                  <div class="news-sml-img">
+                    <img src="images/news3.jpg">
+                    
+                  </div>
+                  <div class="news-sml-data">
+                    <h4>
+                      KIPIC has announced the completion of the rigid inclusions.
+                    </h4>
+                    <div class="date">12 FEB 18</div>
+                    <p>Assertively productize efficient partnerships through customer directed supply
+    chains... <a class="more2" href="#">More</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Milestone -->
+
+  <div class="milestone-section">
+    <div class="container">
+      <center><h3>MILE<span>STONES</span></h3></center>
+      <div class="milestone-slider">
+        <div class="hr"></div>
+        <div class="owl-three owl-carousel owl-theme">
+          <div class="item"">
+            <div class="mile-box">
+              <div class="mile-data">
+                <div class="data">
+                  <h4>October 2016</h4>
+                  <ul>
+                    <li>Establishing the legal entity of KIPIC</li>
+                  </ul>
+                  <a href="#" class="more3">Read More  <img src="images/arrw-more.png"> </a>
+                </div>
+              </div>
+              <i><img src="images/milestone-point.png"></i>
+              <div class="mile-img">
+                <img src="images/milestone1.jpg">
+              </div>
+            </div>
+          </div>
+          <div class="item"">
+            <div class="mile-box">
+              <div class="mile-img">
+                <img src="images/milestone2.jpg">
+              </div>
+              <i><img src="images/milestone-point.png"></i>
+              <div class="mile-data">
+                <div class="data2">
+                  <h4>November 2016</h4>
+                  <ul>
+                    <li>Approval of strategic initiatives, mission and vision </li>
+                    <li>Approval of Structure</li>
+                    <li>Appointing CEO and Managers</li>
+                    <li>Unveiling KIPIC Brand </li>
+                  </ul>
+                  <a href="#" class="more3">Read More  <img src="images/arrw-more.png"> </a>
+                </div>
+              </div>              
+            </div>
+          </div>
+          <div class="item"">
+            <div class="mile-box">
+              <div class="mile-data">
+                <div class="data">
+                  <h4>December 2016</h4>
+                  <ul>
+                    <li> Selection of Executive Vice Presidents and Directors </li>
+                    <li>Signing of Protocol Service Agreement with KNPC  </li>
+                  </ul>
+                  <a href="#" class="more3">Read More  <img src="images/arrw-more.png"> </a>
+                </div>
+              </div>
+              <i><img src="images/milestone-point.png"></i>
+              <div class="mile-img">
+                <img src="images/milestone3.jpg">
+              </div>
+            </div>
+          </div>
+          <div class="item"">
+            <div class="mile-box">
+              <div class="mile-img">
+                <img src="images/milestone2.jpg">
+              </div>
+              <i><img src="images/milestone-point.png"></i>
+              <div class="mile-data">
+                <div class="data2">
+                  <h4>November 2016</h4>
+                  <ul>
+                    <li>Approval of strategic initiatives, mission and vision </li>
+                    <li>Approval of Structure</li>
+                    <li>Appointing CEO and Managers</li>
+                    <li>Unveiling KIPIC Brand </li>
+                  </ul>
+                  <a href="#" class="more3">Read More  <img src="images/arrw-more.png"> </a>
+                </div>
+              </div>              
+            </div>
+          </div>
+        </div>
+    </div>
+    </div>
+  </div>
+
+  <!--Our Projects -->
+
+  <div class="projects-section">
+    <div class="container">
+      <center><h3>OUR<span>PROJECTS</span></h3></center>
+      <div class="row">
+        <div class="col-sm-10 col-sm-offset-1"><p>KIPIC was launched on May 1st 2017 and is responsible for operating and managing refining, liquefied natural gas, and petrochemicals activities of Al-Zour complex. This consists of the following three facilities, currently under construction and anticipated to be operational progressively from 2019 to 2024.</p>
+        </div>
+      </div>
+      
+      <div class="proj-slider">
+        <div class="owl-four owl-carousel owl-theme">
+          <div class="item"">
+            <div class="proj-box">
+              <div class="proj-img">
+                <img src="images/proj1.jpg">
+              </div>
+              
+              <div class="proj-data">
+                <h4>Al Zour Refinery</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque nunc metus. </p>
+                <a href="#" class="proj-more">Show all News</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="item"">
+            <div class="proj-box">
+              <div class="proj-img">
+                <img src="images/proj2.jpg">
+              </div>
+              <div class="proj-data">
+                <h4>Petrochemicals</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque nunc metus. </p>
+                <a href="#" class="proj-more">Show all News</a>
+              </div>
+            </div>
+          </div>
+          
+          
+            <div class="item"">
+            <div class="proj-box">
+              <div class="proj-img">
+                <img src="images/proj2.jpg">
+              </div>
+              <div class="proj-data">
+                <h4>Petrochemicals</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque nunc metus. </p>
+                <a href="#" class="proj-more">Show all News</a>
+              </div>
+            </div>
+          </div>
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!---bottom Section-->
+
+  <div class="bottm-section">
+    <div class="container">
+        <div class="row">
+        <div class="col-sm-6 col-md-3 about">
+          <img src="images/logo.png">
+          <hr>
+          <p>KIPIC was launched on May 1st 2017 and is responsible for operating and managing refining, liquefied natural gas, and petrochemicals activities of Al-Zour complex. This consists of the following three facilities, currently</p>
+        </div>
+        <div class="col-sm-6 col-md-3 location">
+          <h4>kIPIC <span>locations</span></h4>
+          <hr>
+          <map>
+             
+          </map>
+        </div>
+        <div class="col-sm-6 col-md-3 btm-contact">
+          <h4>kIPIC <span>Contacts</span></h4>
+          <hr>
+          <h5>Media Contacts</h5>
+          <i><img src="images/call.png"></i> +965 5547687
+          <hr>
+          <h5>Marketing COntacts</h5>
+          <i><img src="images/call.png"></i> +965 5547687
+        </div>
+        <div class="col-sm-6 col-md-3 social">
+          <h4>kIPIC <span>SOCIAL MEDIA</span></h4>
+          <hr>
+          <ul>
+            <li><i><img src="images/fb.jpg"></i> Facebook</li>
+            <li><i><img src="images/twit.jpg"></i> Twitter</li>
+            <li><i><img src="images/send.jpg"></i> Telegram</li>
+            <li><i><img src="images/insta.jpg"></i> Instagram</li>
+            <li><i><img src="images/utube.jpg"></i> Youtube</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!--btm section-->
+
+  <footer>
+    <div class="container">
+      <ul class="ftr-link">
+        <li><a href="#">Terms & Conditions</a></li>
+        <li><a href="#">Privacy Condition</a></li>
+        <li><a href="#">Sitemap</a></li>
+        <li><a href="#">E-Recruitement</a></li>
+        <li><a href="#">E-Business </a></li>
+      </ul>
+      <hr>
+      2018  Copyrights  KIPIC.  All Rights Reserved. <span class="powered"> Powerd By <i><a href="#"><img src="images/mawaqaa.png"></a></i></span>
+    </div>
+  </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+
+    <script>
+      $(document).ready(function(){
+        $('.owl-one').owlCarousel({
+        	autoplay:false,
+		  autoplayTimeout:5000,
+		  autoplayHoverPause:false,
+          loop:true,
+          margin:10,
+          nav:true,
+          dots:false,
+          navText: ["<img src='images/arrw-l.png'>","<img src='images/arrw-r.png'>"],
+          responsive:{
+              0:{
+                  items:1
+              },
+              600:{
+                  items:1
+              },
+              1000:{
+                  items:1
+              }
+          }
+        });
+        $('.owl-two').owlCarousel({
+          loop:true,
+          margin:10,
+          nav:false,
+          dots: true,
+          navText: ["<img src='images/arrw-l.png'>","<img src='images/arrw-r.png'>"],
+          responsive:{
+              0:{
+                  items:1
+              },
+              600:{
+                  items:1
+              },
+              1000:{
+                  items:1
+              }
+          }
+        });
+        $('.owl-three').owlCarousel({
+          loop:true,
+          margin:30,
+          nav:false,
+          dots: true,
+          responsive:{
+              0:{
+                  items:1
+              },
+              600:{
+                  items:2
+              },
+              1000:{
+                  items:3
+              }
+          }
+        });
+        $('.owl-four').owlCarousel({
+          loop:true,
+          margin:50,
+          nav:false,
+          dots: true,
+          responsive:{
+              0:{
+                  items:1
+              },
+              600:{
+                  items:2
+              },
+              1000:{
+                  items:2
+              }
+          }
+        });
+      });
+
+      $(function () {
+          $('a[href="#search"]').on('click', function(event) {
+              event.preventDefault();
+              $('#search').addClass('open');
+              $('#search > form > input[type="search"]').focus();
+          });
+          
+          $('#search, #search button.close').on('click keyup', function(event) {
+              if (event.target == this || event.target.className == 'close' || event.keyCode == 27) {
+                  $(this).removeClass('open');
+              }
+          });
+          
+          
+          //Do not include! This prevents the form from submitting for DEMO purposes only!
+          $('form').submit(function(event) {
+              event.preventDefault();
+              return false;
+          })
+      });
+    </script>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+          $(".dropdown, .btn-group").hover(function(){
+              var dropdownMenu = $(this).children(".dropdown-menu");
+              if(dropdownMenu.is(":visible")){
+                  dropdownMenu.parent().toggleClass("open");
+              }
+          });
+      });     
+    </script>
+
+  </body>
+</html>
